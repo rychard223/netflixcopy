@@ -1,0 +1,23 @@
+/* zerar padroes do navegador*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: url('../img/bg.jpg');
+    top: 0;
+    left: 0;
+}
+.sombra{
+    position: absolute;
+    width: 100vw;
+    height: 50vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.90) 35%, rgba(255,255,255,0) 100%);
+    left: 0;
+    top: 0;
+}
