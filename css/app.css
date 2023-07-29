@@ -24,12 +24,16 @@
     left: 0;
 }
 
+main{
+    min-height: 90vh;
+}
+
 .sombra{
     position: absolute;
     width: 100vw;
-    height: 50vh;
+    height: 100vh;
     background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.90) 35%, rgba(255,255,255,0) 100%);
+    background: linear-gradient(180deg, rgba(0,0,0, 0.85) 20%, rgba(0,0,0,0.60) 45%, rgba(255,255,255,0) 100%);
     left: 0;
     top: 0;
 }
@@ -57,4 +61,39 @@
     position: absolute;
     left: 7px;
     top: 3px;
+}
+
+.netflix{
+    font-family: 'Netflix' ,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif; 
+    font-size: 4em;  
+}
+.bold{
+    font-family: 'Netflix' ,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: bold; 
+}
+
+.cadastro input{
+    width: 65%;
+    float: left;
+    height: 70px;
+    background-color: rgba(0,0,0,0.60);
+    border-radius: 5px;
+    color: #fff;
+    margin-right: 10px;
+
+}
+.cadastro input:focus{
+    background-color: rgba(0,0,0,0.60);
+    border: 2px solid #fff;
+    color:#fff
+}
+.cadastro input::placeholder{
+    color: #fff;
+}
+
+.cadastro button{
+    padding: 18px 10px;
+}
+.pd10{
+    padding: 10px;
 }
