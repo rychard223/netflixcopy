@@ -4,6 +4,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.z1{
+    z-index: 1;
+}
+.z2{
+    z-index: 2;
+}
+.z3{
+    z-index: 3;
+}
+
 .bg{
     position: absolute;
     width: 100vw;
@@ -12,6 +23,7 @@
     top: 0;
     left: 0;
 }
+
 .sombra{
     position: absolute;
     width: 100vw;
@@ -20,4 +32,29 @@
     background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.90) 35%, rgba(255,255,255,0) 100%);
     left: 0;
     top: 0;
+}
+
+.actions{
+    position: relative;
+}
+
+
+#idioma{
+    padding:6px 8px;
+    background-color: #fff;
+    background: transparent;
+    color: #fff;
+    text-indent: 30px;
+    width: 150px;
+    margin-right: 15px;
+    float: left;
+
+}
+#idioma option{
+    background: black;
+}
+.idIcon{
+    position: absolute;
+    left: 7px;
+    top: 3px;
 }
